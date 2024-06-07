@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutUs() {
     return (
         <div>
-            <h2>Quiénes Somos</h2>
+            <h2>¿Quiénes Somos?</h2>
             <p>Somos una empresa COLOMBIANA líder a nivel nacional, que ofrece soluciones integrales para la gestión de Aceites de Cocina Usado (ACU) y otras grasas de origen vegetal o animal, con altos estándares de calidad y seguridad, comprometida con la atención preferencial y satisfacción de nuestros clientes, brindamos a grandes, medianas y pequeñas empresas del sector gastronómico e industrial. Nuestro objetivo es prevenir y minimizar el impacto en la salud y el medio ambiente, con altos estándares de responsabilidad ética y social, bienestar para nuestros colaboradores y la comunidad en general, cumpliendo la normatividad legal vigente.</p>
             <h2>Misión</h2>
             <p>Gestionar y valorizar de manera integral los Aceites de Cocina Usado; otras grasas de origen vegetal y animal, evitando causar daños innecesarios al medio ambiente y a la salud pública buscando inspirar a más empresas e implementar soluciones para la problemática ambiental.</p>
