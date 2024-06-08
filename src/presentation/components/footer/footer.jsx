@@ -12,23 +12,23 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://www.facebook.com/grasasbio/?locale=es_LA' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://x.com/grasasbio' className='me-4 text-reset'>
                         <MDBIcon fab icon="twitter" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://www.google.com/search?q=grasasbio' className='me-4 text-reset'>
                         <MDBIcon fab icon="google" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://www.instagram.com/grasas.bio/?hl=es' className='me-4 text-reset'>
                         <MDBIcon fab icon="instagram" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://www.linkedin.com/in/grasas-bio-a437b4194/?' className='me-4 text-reset'>
                         <MDBIcon fab icon="linkedin" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
-                        <MDBIcon fab icon="github" />
+                    <a href='https://wa.me/573052665845' className='me-4 text-reset'>
+                        <MDBIcon fab icon="whatsapp" />
                     </a>
                 </div>
             </section>
@@ -38,58 +38,45 @@ export default function Footer() {
                     <MDBRow className='mt-3'>
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
-                                <MDBIcon icon="gem" className="me-3" />
+                                <MDBIcon icon="burn" className="me-3" />
                                 GrasasBio
                             </h6>
                             <p>
-                                Futuro ecológico. Usted y nosotros comprometidos con el medio ambiente.
+                                Futuro ecológico. Usted y nosotros comprometidos con el medio ambiente. 
                             </p>
                         </MDBCol>
 
-                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Angular
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    React
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Vue
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Laravel
-                                </a>
-                            </p>
-                        </MDBCol>
 
-                        <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                        <MDBCol md="4" lg="2" xl="2" className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>Te puede interesar</h6>
                             <p>
                                 <a href='#!' className='text-reset'>
-                                    Pricing
+                                    ¿Quiénes somos?
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className='text-reset'>
-                                    Settings
+                                    Servicios
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className='text-reset'>
-                                    Orders
+                                    ¿Cómo lo hacemos?
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className='text-reset'>
-                                    Help
+                                    A.C.U.
+                                </a>
+                            </p>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    Contacto
+                                </a>
+                            </p>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    Grabitec
                                 </a>
                             </p>
                         </MDBCol>
@@ -115,11 +102,8 @@ export default function Footer() {
                 </MDBContainer>
             </section>
 
-            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                © 2024 Copyright: 
-                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-                    www.grasasbio.com
-                </a>
+            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
+                © 2024 Copyright: www.grasasbio.com
             </div>
         </MDBFooter>
     );
